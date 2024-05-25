@@ -1,4 +1,5 @@
 FROM icr.io/appcafe/open-liberty:kernel-slim-java11-openj9-ubi
+# FROM websphere-liberty:full-java11-openj9
 
 ARG VERSION=1.0
 ARG REVISION=SNAPSHOT

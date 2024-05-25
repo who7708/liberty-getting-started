@@ -60,3 +60,4 @@ EXPOSE 9080 9443
 # docker build -t getting-started:1.0 .
 # docker build -t getting-started:1.0 -f test.Dockerfile .
 # docker run --rm -it --name gettingstarted-app -p 9080:9080 -p 9443:9443 getting-started:1.0
+# docker exec -it gettingstarted-app /bin/bash
